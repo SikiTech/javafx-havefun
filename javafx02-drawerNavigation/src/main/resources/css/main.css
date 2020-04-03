@@ -1,0 +1,21 @@
+
+#vBox {
+    -fx-background-color: #2b2b2b;
+}
+
+
+#header {
+    -fx-background-color: #3A3A3A;
+}
+
+.jfx-hamburger StackPane {
+    -fx-background-color: white;
+}
+
+.menu:hover{
+    -fx-background-color: #ff2f34;
+}
+
+
+
+

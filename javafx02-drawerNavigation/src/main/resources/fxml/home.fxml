@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="body" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.HomeController">
+   <children>
+      <Pane id="header" prefHeight="40.0" prefWidth="600.0" stylesheets="@../css/main.css">
+         <children>
+            <Label fx:id="title" graphicTextGap="10.0" layoutX="235.0" prefHeight="40.0" prefWidth="130.0" text="Happy" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fx:id="titleIcon" fill="WHITE" glyphName="CAMERA" size="22" />
+               </graphic>
+            </Label>
+            <JFXHamburger fx:id="hamburger" layoutX="560.0" layoutY="10.0" stylesheets="@../css/main.css">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></JFXHamburger>
+         </children>
+      </Pane>
+      <AnchorPane fx:id="content" layoutY="40.0" prefHeight="360.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
