@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.ExcelController">
+   <children>
+      <Pane layoutX="50.0" prefHeight="480.0" prefWidth="600.0" stylesheets="@../css/main.css">
+         <children>
+            <JFXButton fx:id="importButton" buttonType="RAISED" layoutX="15.0" layoutY="20.0" onAction="#importAreaResourceExcel" prefHeight="37.0" prefWidth="213.0" ripplerFill="WHITE" stylesheets="@../css/main.css" text="导入EXCEL" />
+            <JFXButton fx:id="exportButton" buttonType="RAISED" layoutX="466.0" layoutY="20.0" onAction="#exportAreaResourceTemplate" prefHeight="37.0" prefWidth="119.0" stylesheets="@../css/main.css" text="生成模板EXCEL" />
+            <JFXTreeTableView fx:id="inTable" layoutX="15.0" layoutY="80.0" prefHeight="300.0" prefWidth="180.0" stylesheets="@../css/main.css" />
+            <JFXTreeTableView fx:id="outTable" layoutX="210.0" layoutY="80.0" prefHeight="300.0" prefWidth="180.0" stylesheets="@../css/main.css" />
+            <JFXTreeTableView fx:id="smTable" layoutX="405.0" layoutY="80.0" prefHeight="300.0" prefWidth="180.0" stylesheets="@../css/main.css" />
+            <JFXTextField fx:id="inRowsCountText" alignment="TOP_CENTER" editable="false" layoutX="74.0" layoutY="380.0" prefHeight="18.0" prefWidth="63.0" visible="false" />
+            <JFXTextField fx:id="outRowsCountText" alignment="TOP_LEFT" editable="false" layoutX="269.0" layoutY="380.0" prefHeight="18.0" prefWidth="63.0" visible="false" />
+            <JFXTextField fx:id="smRowsCountText" alignment="TOP_CENTER" editable="false" layoutX="464.0" layoutY="380.0" prefHeight="18.0" prefWidth="63.0" visible="false" />
+            <JFXButton fx:id="calButton" buttonType="RAISED" contentDisplay="TOP" layoutX="422.0" layoutY="416.0" onAction="#calAreaSourceRate" prefHeight="53.0" prefWidth="163.0" stylesheets="@../css/main.css" text="面源污染控制率 R(%)" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+               <graphic>
+                  <FontAwesomeIconView glyphName="CALCULATOR" size="20" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="areaRValue" alignment="TOP_LEFT" buttonType="RAISED" contentDisplay="CENTER" layoutX="286.0" layoutY="427.0" prefHeight="42.0" prefWidth="119.0" ripplerFill="WHITE" text="R = ?">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
