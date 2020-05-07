@@ -16,11 +16,11 @@ Javafx-havefun 记录了我从javafx一无所知到最后完成交付一个小�
 
 ## 文档
 
-1. [java开发桌面应用（一）JavaFx初体验 Jfoenix UI+Scene Builder](http://www.zhouruikang.cn/2020/0327/javafx01-helloworld.html)
-2. [java开发桌面应用（二）JavaFx美化FontAwesomeFX+CSS](http://www.zhouruikang.cn/2020/0329/javafx02-beautify.html)
-3. [java开发桌面应用（三）JavaFx写一个抽屉式导航](http://www.zhouruikang.cn/2020/0330/javafx03-drawer.html)
+1. [java开发桌面应用（一）JavaFx初体验 Jfoenix UI+Scene Builder](http://www.zhouruikang.cn/2020/0327/javafx01-helloworld)
+2. [java开发桌面应用（二）JavaFx美化FontAwesomeFX+CSS](http://www.zhouruikang.cn/2020/0329/javafx02-beautify)
+3. [java开发桌面应用（三）JavaFx写一个抽屉式导航](http://www.zhouruikang.cn/2020/0330/javafx03-drawer)
 
-4. [java开发桌面应用（四）JavaFx与excel交互](http://www.zhouruikang.cn/2020/0402/javafx04-excel.html)
+4. [java开发桌面应用（四）JavaFx与excel交互](http://www.zhouruikang.cn/2020/0402/javafx04-excel)
 
 ## 各阶段运行效果
 
